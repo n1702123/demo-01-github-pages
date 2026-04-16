@@ -27,7 +27,7 @@ jobs:
 
       # Step 3: 安裝相依套件
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       # Step 4: Build 靜態檔案（輸出到 out/ 資料夾）
       - name: Build
